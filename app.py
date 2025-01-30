@@ -13,7 +13,7 @@ def ignore_favicon():
         return '', 204
 
 
-openai.api_key = "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"
+openai.api_key = ""
 
 def fetch_books(search_query):
     #hit the openlibrary endpoint
